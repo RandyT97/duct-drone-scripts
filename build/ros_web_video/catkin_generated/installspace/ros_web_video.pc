@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/install
+
+Name: ros_web_video
+Description: Description of ros_web_video
+Version: 0.1.14
+Cflags: -I/home/pi/catkin_ws/install/include
+Libs: -L/home/pi/catkin_ws/install/lib -lros_web_video
+Requires: sensor_msgs image_transport roscpp rostime mk
