@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
+subdirs(dht22)
 subdirs(ir_camera)
 subdirs(async_web_server_cpp)
 subdirs(rosauth)

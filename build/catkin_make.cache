@@ -1,2 +1,2 @@
-async_web_server_cpp:ir_camera:raspicam_node:ros_web_video:rosauth:rosbridge_server:rplidar_ros:servos:web_video_server
+async_web_server_cpp:dht22:ir_camera:raspicam_node:ros_web_video:rosauth:rosbridge_server:rplidar_ros:servos:web_video_server
 -DCATKIN_DEVEL_PREFIX=/home/pi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/catkin_ws/install -G Unix Makefiles

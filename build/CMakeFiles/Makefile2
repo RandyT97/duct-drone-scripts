@@ -389,6 +389,56 @@ clean: gtest/gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory dht22
+
+# Convenience name for "all" pass in the directory.
+dht22/all:
+
+.PHONY : dht22/all
+
+# Convenience name for "clean" pass in the directory.
+dht22/clean: dht22/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : dht22/clean
+
+# Convenience name for "preinstall" pass in the directory.
+dht22/preinstall:
+
+.PHONY : dht22/preinstall
+
+#=============================================================================
+# Target rules for target dht22/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+dht22/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f dht22/CMakeFiles/_catkin_empty_exported_target.dir/build.make dht22/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f dht22/CMakeFiles/_catkin_empty_exported_target.dir/build.make dht22/CMakeFiles/_catkin_empty_exported_target.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+.PHONY : dht22/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+dht22/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 dht22/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/CMakeFiles 0
+.PHONY : dht22/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: dht22/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+dht22/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f dht22/CMakeFiles/_catkin_empty_exported_target.dir/build.make dht22/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : dht22/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+# clean rule for target.
+clean: dht22/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory ir_camera
 
 # Convenience name for "all" pass in the directory.
@@ -397,7 +447,7 @@ ir_camera/all:
 .PHONY : ir_camera/all
 
 # Convenience name for "clean" pass in the directory.
-ir_camera/clean: ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/clean
+ir_camera/clean:
 
 .PHONY : ir_camera/clean
 
@@ -405,38 +455,6 @@ ir_camera/clean: ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/clean
 ir_camera/preinstall:
 
 .PHONY : ir_camera/preinstall
-
-#=============================================================================
-# Target rules for target ir_camera/CMakeFiles/_catkin_empty_exported_target.dir
-
-# All Build rule for target.
-ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/build.make ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/build.make ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/all
-
-# Build rule for subdir invocation for target.
-ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/CMakeFiles 0
-.PHONY : ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-.PHONY : _catkin_empty_exported_target
-
-# clean rule for target.
-ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/build.make ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-# clean rule for target.
-clean: ir_camera/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory async_web_server_cpp
